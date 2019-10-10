@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * Properties 文件操作工具类
+ * Properties Classe dello strumento di manipolazione dei file
  * Properties file manager util
  * @author gsk
  */
@@ -13,10 +13,10 @@ public class PropertiesUtil {
 
 
     /**
-     * 读取指定path下的Properties文件
+     *Leggi il file Proprietà sotto il percorso specificato
      * Read properties file in the path
      * @param path
-     *      Properties文件路径
+     *      Percorso del file delle proprietà
      *      Properties file path
      * @return
      */
