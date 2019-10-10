@@ -5,7 +5,7 @@ import com.github.onlyguo.nginx.utils.PropertiesUtil;
 import java.util.Properties;
 
 /**
- * 配置文件公共类
+ * Profilo di classe pubblica
  * Common config content
  * @author gsk
  */
@@ -14,19 +14,19 @@ public interface Configer {
     Properties PROPERTIES = PropertiesUtil.read("conf.properties");
 
     /**
-     * 程序或界面显示的语言
+     * T
      * Language for application or UI display
      */
     String LANGUAGE = PROPERTIES.getOrDefault("language", "zh_cn").toString();
 
     /**
-     * Nginx配置文件路径
+     * Percorso del file di configurazione di Nginx
      * Nginx config file path
      */
     String CONF_DIR = PROPERTIES.getProperty("conf.path");
 
     /**
-     * 不同语言的消息
+     * Messaggi in diverse lingue
      * Message expression configuration in different languages
      */
     interface MESSAGE_TEMPLATE{
